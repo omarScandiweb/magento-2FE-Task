@@ -9,5 +9,7 @@
             </container>
         </referenceContainer>
 
+        <move element="form.subscribe" destination="page.bottom" before="footer"/>
+
     </body>
 </page>
