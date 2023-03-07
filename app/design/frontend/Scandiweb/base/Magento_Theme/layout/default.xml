@@ -11,5 +11,6 @@
 
         <move element="form.subscribe" destination="page.bottom" before="footer"/>
 
+        <referenceBlock name="catalog.product.related" remove="true"/>
     </body>
 </page>
