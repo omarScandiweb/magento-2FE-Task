@@ -12,8 +12,6 @@
 
         <move element="form.subscribe" destination="page.bottom" before="footer"/>
 
-        <referenceBlock name="catalog.product.related" remove="true"/>
-
         <attribute name="class" value="page-product-combined"/>
 
     </body>
