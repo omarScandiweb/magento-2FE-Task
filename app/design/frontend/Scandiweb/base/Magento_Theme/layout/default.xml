@@ -12,7 +12,5 @@
 
         <move element="form.subscribe" destination="page.bottom" before="footer"/>
 
-        <attribute name="class" value="page-product-combined"/>
-
     </body>
 </page>
