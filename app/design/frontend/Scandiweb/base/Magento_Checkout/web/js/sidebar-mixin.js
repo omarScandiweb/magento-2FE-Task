@@ -16,11 +16,8 @@ define([
 ], function ($, authenticationPopup, customerData, _) {
     'use strict';
 
-    $.widget('mage.sidebar', {
 
-        /**
-         * @private
-         */
+    var mixin = {
         _initContent: function () {
             var self = this,
                 events = {};
@@ -96,7 +93,9 @@ define([
             this._on(this.element, events);
             this._calcHeight();
         },
-    });
+    };
 
-    return $.mage.sidebar;
+    return function (target) {
+        return target.extend(mixin);
+    };
 });
